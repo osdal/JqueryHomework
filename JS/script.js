@@ -1,4 +1,13 @@
 ﻿$(document).ready(function () {
+	$('.overlay').on('click', function(){
+		
+	}
+
+
+});
+
+
+/*$(document).ready(function () {
 	
 $('.list-item:first').hover(function() {
 	$(this).toggleClass('active');
@@ -21,4 +30,4 @@ $('.list-item:eq(4)').on('click', function() {
 
 
 
-});
+});*/
