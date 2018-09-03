@@ -1,7 +1,10 @@
 ﻿$(document).ready(function () {
-	$('.overlay').on('click', function(){
+	$('.main_btna').on('click', function(){
+		$('.overlay').animate({opacity: "toggle"}, 3000);
+		$('.modal').css('display', 'block');
+
 		
-	}
+	});
 
 
 });
