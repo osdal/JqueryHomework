@@ -1,7 +1,8 @@
 ﻿$(document).ready(function () {
 	$('.main_btna').on('click', function(){
 		$('.overlay').animate({opacity: "toggle"}, 3000);
-		$('.modal').css('display', 'block');
+		// $('.modal').css('display', 'block');
+		$('.modal').animate({height: 'toogle'}, 3000);
 
 		
 	});
