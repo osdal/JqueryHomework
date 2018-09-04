@@ -1,11 +1,16 @@
 ﻿$(document).ready(function () {
-	$('.main_btna').on('click', function(){
+	$('.main_btna, .main_btn').on('click', function(){
 		$('.overlay').animate({opacity: "toggle"}, 3000);
-		// $('.modal').css('display', 'block');
-		$('.modal').animate({height: 'toogle'}, 3000);
-
-		
+		$('.modal').css('display', 'block');
+		$('.modal').offset({top:-500});
+		$('.modal').animate({top: 150}, 3000);		
 	});
+
+	$('.close').on('click', function() {
+		$('.overlay').animate({opacity: "toggle"}, 3000);
+		$('.modal').animate({top: -600}, 3000);
+	});
+
 
 
 });
