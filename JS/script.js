@@ -1,5 +1,5 @@
 ﻿$(document).ready(function () {
-	$('.main_btna, .main_btn').on('click', function(){
+	$('.main_btna, .main_btn, nav li:nth-child(2)').on('click', function(){
 		$('.overlay').animate({opacity: "toggle"}, 3000);
 		$('.modal').css('display', 'block');
 		$('.modal').offset({top:-500});
